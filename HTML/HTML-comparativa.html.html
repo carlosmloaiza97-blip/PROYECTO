@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EV03 - Comparativa de Estilos - Carlos Loaiza</title>
+    
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #e8f4f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #39a900;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            border-bottom: 5px solid #1d6901;
+        }
+        .datos-estudiante {
+            font-size: 0.9em;
+            background-color: rgba(0,0,0,0.1);
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        nav {
+            background-color: #023752;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            color: #39a900;
+        }
+        main {
+            padding: 30px;
+            max-width: 800px;
+            margin: auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 { color: #39a900; }
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.8em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Proyecto: Gestión de Call Center</h1>
+        <div class="datos-estudiante">
+            <strong>Aprendiz:</strong> Carlos Mario Loaiza Matamoros <br>
+            <strong>Ficha:</strong> 3465955 | <strong>SENA</strong> <br>
+            <strong>Instructor:</strong> Jose Ignacio Botero Osorio
+        </div>
+    </header>
+
+    <nav>
+        <a href="../index.html">IR AL INICIO</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Demostración: Estilos Embebidos</h2>
+            <p>Esta página web ha sido modificada para cumplir con la evidencia <strong>GA1-220501093-AA1-EV03</strong>.</p>
+            <p>A diferencia del archivo <em>index.html</em>, esta página utiliza la etiqueta <code>&lt;style&gt;</code> dentro del encabezado para definir su apariencia de forma interna.</p>
+            
+            <h3>Temas manejados:</h3>
+            <ul>
+                <li><strong>HTML:</strong> Lenguaje de marcado para la estructura.</li>
+                <li><strong>CSS:</strong> Lenguaje para definir el estilo visual.</li>
+                <li><strong>Rutas Relativas:</strong> Uso de <code>../</code> para navegar entre carpetas.</li>
+            </ul>
+            
+            <!-- Botón para probar funcionalidad JS -->
+            <button onclick="saludo()">Ejecutar Prueba JavaScript</button>
+        </section>
+    </main>
+
+    <footer>
+        Tecnología en Análisis y Desarrollo de Software - Fase I Análisis
+    </footer>
+
+    <script src="../JS/script.js"></script>
+
+    <script>
+    function saludo() {
+        alert("¡Prueba exitosa!");
+    }
+</script>
+</body>
+</html>
